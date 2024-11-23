@@ -6,7 +6,7 @@ Read more about this pre-trained model [here.](https://towardsdatascience.com/nl
 **In collaboration with [Charan Pothireddi](https://www.linkedin.com/in/sree-charan-pothireddi-6a0a3587/) and [Parabole.ai](https://www.linkedin.com/in/sree-charan-pothireddi-6a0a3587/)**
 
 The further pre-trained ESG-BERT model can be found [here](https://huggingface.co/nbroad/ESG-BERT). It is a PyTorch model but it can be converted into a Tensorflow model. They can be fine-tuned using either framework. I found the PyTorch framework to be a lot cleaner, and easier to replicate with other models. However, serving the final fine-tuned model is a lot easier on TensorFlow, than on PyTorch. 
-
+    
 You can download the ESG-BERT model (named pytorch_model.bin) along with config.json and vovab.txt fles here. BERT base model was further pre-trained on Sustainable Investing text corpus, resulting in a domain specific model. You need the all of those 3 files for fine-tuning.  
 
 For fine-tuning the model, you can use this command to load it into PyTorch. 
